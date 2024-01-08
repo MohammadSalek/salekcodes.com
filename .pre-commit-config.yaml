@@ -29,7 +29,7 @@ repos:
       - id: detect-secrets
 
   - repo: https://github.com/crate-ci/typos
-    rev: v1.16.26
+    rev: v1.17.0
     hooks:
       - id: typos
 
@@ -68,7 +68,7 @@ repos:
       - id: black
 
   - repo: https://github.com/pycqa/flake8
-    rev: 6.1.0
+    rev: 7.0.0
     hooks:
       - id: flake8
         additional_dependencies:
